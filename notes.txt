@@ -1,1 +1,27 @@
   java script
+
+//dynamic weakly typed programming language compiled at runtime interpreted
+created to make webpages dynamic
+totally independant from java
+
+javascript engine builtin into the browser
+code gets compiled to machine code 
+operates on one single thread
+
+
+//dynamic -->code evalvated and executed at runtime
+also can be changed
+
+//weaklytyped --> data types are assumed automatically 
+no need to declare
+data types are not set
+manipulate the HTML and CSS codes
+it can interact with operates
+
+Node.js 
+used to build backends 
+can access the local file system and interact with the operating system
+
+
+client side(Browser) --> allows interaction with webpages and browser API
+server side(NodeJS) --> incoming http requests
