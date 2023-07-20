@@ -57,3 +57,12 @@ maintains the order of excecution of exceution contexts
 3. control stack
 4. runtime stack
 5. machine stack
+
+//hoisting means calling a function before it gets declared 
+
+//undefined vs not defined
+undefined --> means the value is not allocated to the memory by compiler
+not defined --> means the variable hasn't been declared and defined inside the program
+
+//lexical environment is the local memory along with the lexical environment of parent memory
+lexical is inorder or inheirarchy
