@@ -3,6 +3,7 @@
 //dynamic weakly typed programming language compiled at runtime interpreted
 created to make webpages dynamic
 totally independant from java
+synchronous and single threaded 
 
 javascript engine builtin into the browser
 code gets compiled to machine code 
@@ -25,3 +26,34 @@ can access the local file system and interact with the operating system
 
 client side(Browser) --> allows interaction with webpages and browser API
 server side(NodeJS) --> incoming http requests
+
+
+//javascript Values
+--> fixed Values   literals
+--> variable values  variables
+
+var,let,const are used to declare variables
+also variables are declared automatically
+
+let --> cannot be redeclared ,declared before use
+
+   EXECUTION CONTEXT
+variable environment
+memory -->key:value and functions
+code --> threadus running 
+
+//call stack
+bottom of stack is global exceution context 
+exceution context will be pushed
+once exceutionfinished then it will be poped away and control goes to GEC
+when new function invoked new exceution context created
+after whole program completed whole call stack gets deleted
+maintains the order of excecution of exceution contexts
+
+
+/other names of call stack
+1. excecution context stack
+2. program stack
+3. control stack
+4. runtime stack
+5. machine stack
