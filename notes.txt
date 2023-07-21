@@ -1,6 +1,6 @@
   java script
 
-//dynamic weakly typed programming language compiled at runtime interpreted
+//dynamic weakly typed programming language compiled at runtime,interpreted
 created to make webpages dynamic
 totally independant from java
 synchronous and single threaded 
@@ -45,13 +45,13 @@ code --> threadus running
 //call stack
 bottom of stack is global exceution context 
 exceution context will be pushed
-once exceutionfinished then it will be poped away and control goes to GEC
+once exceution finished then it will be poped away and control goes to GEC
 when new function invoked new exceution context created
 after whole program completed whole call stack gets deleted
 maintains the order of excecution of exceution contexts
 
 
-/other names of call stack
+//other names of call stack
 1. excecution context stack
 2. program stack
 3. control stack
@@ -66,3 +66,96 @@ not defined --> means the variable hasn't been declared and defined inside the p
 
 //lexical environment is the local memory along with the lexical environment of parent memory
 lexical is inorder or inheirarchy
+
+//temporal dead zone
+ temporal dead zone is the area where the let and const values are unable to access.
+ tdz starts when the code exceution enters and ends when the let and const get declared
+//let and const declarations are hoisted
+
+1. let and const are hoisted but its memory is allocated at other place than window which
+ cannot be accessed before initialisation.
+
+2. Temporal Dead Zone exists until variable is declared and assigned a value.
+
+3. window.variable OR this.variable will not give value of variable defined using let or const.
+
+4. We cannot redeclare the same variable with let/const(even with using var the second time).
+
+5. const variable declaration and initialisation must be done on the same line.
+
+6. There are three types of error: [1] referenceError {given where variable does not
+ have memory allocation} [2] typeError {given when we change type that is not supposed 
+ to be changed} [3] syntaxError {when proper syntax(way of writing a statement) is not used}.
+
+7. Use const wherever possible followed by let, Use var as little as possible(only if you have
+ to). It helps avoid error.
+
+8. Initialising variables at the top is good idea, helps shrinks TDZ to zero.
+
+
+//if syntaxError occours then no lines gets executed when let redeclared 
+typeError occours when const gets redeclared 
+referenceError --> when a javascript engine finds out a  variable inside and you can't access it 
+{ at temporal dead zone } 
+also when we access a not defined variable referenceError
+
+
+usage preference
+
+** const
+**let 
+**var
+
+
+//block scope  **let and const are block scoped**
+bloc --> combining multiple js statements into a block
+multiple statements inside a block {} are treated as single statement
+
+//shadowing
+if we have same name ouside the block inside variable shadows the outside variable
+it should be same variable
+
+//illegal shadowing
+if different variable is shadows another variable it is illegal shadowing
+
+//lexical scope
+a block inside another block
+
+//closures
+it is a function bind to its parent in a lexical environment
+function along with lexical scope forms a closure
+
+uses of closures
+ module design pattern
+ currying
+ functions like once
+ memoize
+ setTimeout
+ iterators
+
+//setTimeout
+will delay for given seconds
+
+//anonymous functions --> without name
+//firstclass funtions --> 
+
+//function statement
+
+a();
+b();
+function a(){
+  console.log("a");
+}
+
+//function expression also acts as avariable
+var b=function(){
+  console.log("b called);
+}
+diff bw fun exp and fun statement is function statement can be called before it defined (hoisting)
+
+//function declaration
+is same as function statement
+
+
+//anonymous function
+without namedont have an identity
