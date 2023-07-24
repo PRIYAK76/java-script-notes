@@ -159,18 +159,27 @@ is same as function statement
 
 //anonymous function
 without namedont have an identity
+
+
  When we creating a function  & put some variables in this ( ) that is our Parameters.
 For Ex - function ab( param1, param2 ){
   console.log("");
  }
 & When we call this function & pass a variable in this ( ) that is our Arguments
 For Ex - ab( 4, 5 );
-The Ability of use function as value,
+
+
+//The Ability of use function as value,-->first class functions
 *     Can be passed as an Argument,
 *     Can be executed inside a closured function &
 *     Can be taken as return form.
- For Ex - var b = function(param){
- return function xyz(){
-  console.log(" F C F ");
-  }
-} 
+
+
+// functions are first class citizens or first class functions
+
+//garbage collections and remove event listners
+
+//event loop and callback queue
+//fetch request api 
+//micro tasks queue
+just like callback queue
