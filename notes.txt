@@ -147,7 +147,7 @@ function a(){
   console.log("a");
 }
 
-//function expression also acts as avariable
+//function expression also acts as a variable
 var b=function(){
   console.log("b called);
 }
@@ -159,3 +159,18 @@ is same as function statement
 
 //anonymous function
 without namedont have an identity
+ When we creating a function  & put some variables in this ( ) that is our Parameters.
+For Ex - function ab( param1, param2 ){
+  console.log("");
+ }
+& When we call this function & pass a variable in this ( ) that is our Arguments
+For Ex - ab( 4, 5 );
+The Ability of use function as value,
+*     Can be passed as an Argument,
+*     Can be executed inside a closured function &
+*     Can be taken as return form.
+ For Ex - var b = function(param){
+ return function xyz(){
+  console.log(" F C F ");
+  }
+} 
