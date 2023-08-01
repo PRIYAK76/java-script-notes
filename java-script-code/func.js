@@ -1,7 +1,9 @@
-var x=7;
-function getName(){
-    console.log('heloo');
+let a,b;
+function get(a,b){
+    return a*b;
 }
-getName();
-console.log(x);
-console.log(getName);
+var c=get(2,6);
+console.log(c);
+c=16;
+console.log(c);
+console.log("heyyy");

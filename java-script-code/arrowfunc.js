@@ -11,5 +11,5 @@ var x=10;
 a();
 function a(){
     var x=1;
-    console.log(x);
+    console.log(a);
 }
