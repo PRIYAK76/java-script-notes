@@ -1,8 +1,8 @@
-let name = {
+let nam11e={
     firstName:"priya",
     lastName:"dhars",
     printfull:function(){
         console.log(this.firstName+""+this.lastName);
     }
 }
-name.printfull();
+nam11e.printfull();

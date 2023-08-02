@@ -158,7 +158,7 @@ is same as function statement
 
 
 //anonymous function
-without namedont have an identity
+without name dont have an identity
 
 
  When we creating a function  & put some variables in this ( ) that is our Parameters.
@@ -183,3 +183,38 @@ For Ex - ab( 4, 5 );
 //fetch request api 
 //micro tasks queue
 just like callback queue
+
+
+
+
+//map,filter,reduce
+filter --> returns the elements of an array that meet the conditions specified in a callback functions
+map --> takes a value and change the value
+
+
+//currying
+apply to a function to generate a new function
+is a higher order function 
+helps to avoid passing of same variable again and again
+
+
+this transforms a funtion with multiple argument into a nested series of function each taking a single 
+argument
+
+
+//array
+push pop 
+shift unshift
+
+//map
+The map() method is used for creating a new array from an existing one, applying a function to each one 
+of the elements of the first array.
+
+//filter
+The filter() method takes each element in an array and it applies a conditional statement against it. If 
+this conditional returns true, the element gets pushed to the output array. If the condition returns false,
+ the element does not get pushed to the output array.
+
+//reduce
+The reduce() method reduces an array of values down to just one value. To get the output value, it runs a
+ reducer function on each element of the array.

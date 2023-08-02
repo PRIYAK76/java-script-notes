@@ -12,11 +12,15 @@ sum(1,2,3);*/    //normal function
 
 //curried version
 
-function sum(a){
-    return(b)=>{
-        return(c)=>{
+function sum(a) {
+    let b = (b) => {
+        let c = (c)=> {
             return a+b+c;
-        }
-    }
+        };
+        return c;
+    };
+    return b;
 }
 console.log(sum(1)(2)(3));
+//b(2)(3)
+//c(3)
