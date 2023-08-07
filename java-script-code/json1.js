@@ -529,25 +529,22 @@ let emp=
 //     i["adress"] = "cinema555";
 //   }
 console.log(emp.length);
-emp.map((i) => {
-    var j=0;
+emp.map((i,index) => {
     i.address = []
     let tempAddress = {}
     tempAddress.type = "Office";
     tempAddress.street = "Trichy Road";
     tempAddress.city = "Palladam",
-    tempAddress.pincode = 641664;
+    tempAddress.pincode = 641664+(2*index)+1;
     i.address.push(tempAddress);
     tempAddress = {}
     tempAddress.type = "Residential";
     tempAddress.street = "Trichy Road";
     tempAddress.city = "Palladam",
-    tempAddress.pincode = 641664;
+    tempAddress.pincode = 641664+(2*index)+2;
     i.address.push(tempAddress);
-    j++;
-    console.log(j);
+    console.log(i);
   });
   
   
   
-console.log(emp);
