@@ -31,3 +31,12 @@ console.log(emp.address);
         "catchPhrase": "Multi-layered client-server neural-net",
         "bs": "harness real-time e-markets"  
     }*/
+
+
+let emp1=[]
+{
+    "name":"priya",
+    "id":1
+}
+
+console.log(emp1);
