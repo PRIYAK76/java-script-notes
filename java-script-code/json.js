@@ -35,8 +35,10 @@ console.log(emp.address);
 
 let emp1=[]
 {
-    "name":"priya",
-    "id":1
+    name1 ="priya",
+    id = 1
+    emp1.push(name1);
 }
+
 
 console.log(emp1);
