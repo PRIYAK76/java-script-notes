@@ -35,9 +35,15 @@ console.log(emp.address);
 
 let emp1=[]
 {
-    name1 ="priya",
-    id = 1
-    emp1.push(name1);
+    let emp1arr={}
+    emp1arr.name1 ="priya",
+    emp1arr.id = 1
+    emp1.push(emp1arr);
+
+    let emp2arr={}
+    emp2arr.name1 ="dharsh",
+    emp2arr.id =6
+    emp1.push(emp2arr);
 }
 
 
