@@ -233,10 +233,11 @@ The reduce() method reduces an array of values down to just one value. To get th
 //template literal
  console.log(`the product of ${a} and ${b} is equal to ${c}`)
 
-
- //json stands for JavaScrippt Object Notation
+ JSON
+ //json stands for JavaScript Object Notation
  small weighted format to store and transport data
  used to transmit data between a server and a web applications
 
  to convert to json we can also use GSON library or using Jackson API
- 
+
+JSON uses map data structure xml uses tree structure
