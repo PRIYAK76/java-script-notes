@@ -5,6 +5,8 @@ created to make webpages dynamic
 totally independant from java
 synchronous and single threaded 
 
+
+
 javascript engine builtin into the browser
 code gets compiled to machine code 
 operates on one single thread
